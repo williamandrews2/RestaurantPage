@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-color: purple;
+  --button-color: rgb(57, 152, 184);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+header #nav-button-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+header button {
+  margin: 0px 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 0px;
+  color: white;
+  background-color: var(--button-color);
+}
+
+header #restaurant-name {
+  margin-left: 3rem;
+  font-size: 3rem;
+  color: white;
+}
+
+#featured-item {
+  color: white;
+  padding: 20px 0px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
