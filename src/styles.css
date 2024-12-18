@@ -6,6 +6,7 @@
 :root {
   --background-color: brown;
   --button-color: rgb(194, 3, 3);
+  --shadow: rgba(0, 0, 0, 0.3);
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 
 body {
   &::before {
-    background-image: url("tablecloth.webp");
+    background-image: url("./images/tablecloth.webp");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -73,4 +74,28 @@ header button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.menu-container {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 80vw;
+  background: var(--shadow);
+  border-radius: 20px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 20vw;
+  height: auto;
+}
+
+.menu-item h2 {
+  padding: 20px 0px;
 }

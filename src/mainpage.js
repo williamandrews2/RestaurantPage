@@ -1,4 +1,4 @@
-import hamburger from "./hamburger.webp";
+import hamburger from "./images/hamburger.webp";
 
 export function loadMainPage() {
   const content = document.getElementById("content");
