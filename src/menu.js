@@ -7,7 +7,7 @@ export function loadMenu() {
   const menuContainer = document.createElement("div");
   menuContainer.classList.add("menu-container");
 
-  const menuTitle = `<h1>Menu</h1>`;
+  const menuTitle = `<h1 class="tab-heading">Menu</h1>`;
   content.innerHTML += menuTitle;
 
   // Menu items data:

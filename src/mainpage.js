@@ -5,7 +5,7 @@ export function loadMainPage() {
 
   // Add new text:
   const newText = `
-      <h1 id="featured-item">Try our new juicy burger for $14.99!</h1>    
+      <h1 class="tab-heading">Try our new juicy burger for $14.99!</h1>    
       `;
   content.innerHTML += newText;
 

@@ -65,15 +65,15 @@ header button:hover {
   border: 3px solid white;
 }
 
-#featured-item {
-  color: black;
-  padding: 20px 0px;
-}
-
 #content {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.tab-heading {
+  color: black;
+  padding: 20px 0px;
 }
 
 .menu-container {
