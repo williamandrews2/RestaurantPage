@@ -79,7 +79,7 @@ header button:hover {
 .menu-container {
   display: grid;
   padding: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
   width: 80vw;
   background: var(--shadow);
   border-radius: 20px;
